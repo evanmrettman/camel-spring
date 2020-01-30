@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42e8c895-26d6-4a53-8fae-3a14a05b03f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/evanmrettman/camel/CamelActivemqExampleUsingSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/evanmrettman/camel/ActiveMqRouteBuilderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/evanmrettman/camel/routes/ActiveMqRouteBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/routeBuilderApplicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evanmrettman/camel/CamelActiveMqExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evanmrettman/camel/CamelActiveMqExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/camel-spring-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/camel-spring-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/evanmrettman/camel/CamelActiveMqExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/evanmrettman/camel/CamelActiveMqExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/evanmrettman/camel/CamelActivemqExampleUsingSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/evanmrettman/camel/CamelActivemqExampleUsingSpring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,20 @@
       <recent name="E:\Work\Projects\camel-spring\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CamelActivemqExampleUsingSpring">
+  <component name="RunManager" selected="Application.ActiveMqRouteBuilderExample">
+    <configuration name="ActiveMqRouteBuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.evanmrettman.camel.ActiveMqRouteBuilderExample" />
+      <module name="camel-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.evanmrettman.camel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CamelActiveMqExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.evanmrettman.camel.CamelActiveMqExample" />
       <module name="camel-spring" />
@@ -108,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ActiveMqRouteBuilderExample" />
         <item itemvalue="Application.CamelActivemqExampleUsingSpring" />
         <item itemvalue="Application.CamelActiveMqExample" />
         <item itemvalue="Application.SpringExample" />
@@ -145,22 +153,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="587" y="119" key="CommitChangelistDialog2/1920.0.1920.1050/-1920.0.1920.1080/0.0.1920.1050@0.0.1920.1050" timestamp="1580406822279" />
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom" timestamp="1580410401007">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1580411529576">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom/1920.0.1920.1050/-1920.0.1920.1080/0.0.1920.1050@0.0.1920.1050" timestamp="1580410401007" />
-    <state width="1877" height="225" key="GridCell.Tab.0.center" timestamp="1580410401006">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/1920.0.1920.1050/-1920.0.1920.1080/0.0.1920.1050@0.0.1920.1050" timestamp="1580411529576" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1580411529576">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="225" key="GridCell.Tab.0.center/1920.0.1920.1050/-1920.0.1920.1080/0.0.1920.1050@0.0.1920.1050" timestamp="1580410401006" />
-    <state width="1877" height="225" key="GridCell.Tab.0.left" timestamp="1580410401006">
+    <state width="1877" height="352" key="GridCell.Tab.0.center/1920.0.1920.1050/-1920.0.1920.1080/0.0.1920.1050@0.0.1920.1050" timestamp="1580411529576" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1580411529576">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="225" key="GridCell.Tab.0.left/1920.0.1920.1050/-1920.0.1920.1080/0.0.1920.1050@0.0.1920.1050" timestamp="1580410401006" />
-    <state width="1877" height="225" key="GridCell.Tab.0.right" timestamp="1580410401007">
+    <state width="1877" height="352" key="GridCell.Tab.0.left/1920.0.1920.1050/-1920.0.1920.1080/0.0.1920.1050@0.0.1920.1050" timestamp="1580411529576" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1580411529576">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="225" key="GridCell.Tab.0.right/1920.0.1920.1050/-1920.0.1920.1080/0.0.1920.1050@0.0.1920.1050" timestamp="1580410401007" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right/1920.0.1920.1050/-1920.0.1920.1080/0.0.1920.1050@0.0.1920.1050" timestamp="1580411529576" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1580411529576">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/1920.0.1920.1050/-1920.0.1920.1080/0.0.1920.1050@0.0.1920.1050" timestamp="1580411529576" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1580411529576">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/1920.0.1920.1050/-1920.0.1920.1080/0.0.1920.1050@0.0.1920.1050" timestamp="1580411529576" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1580411529576">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/1920.0.1920.1050/-1920.0.1920.1080/0.0.1920.1050@0.0.1920.1050" timestamp="1580411529576" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1580411529576">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/1920.0.1920.1050/-1920.0.1920.1080/0.0.1920.1050@0.0.1920.1050" timestamp="1580411529576" />
     <state x="490" y="179" key="Maven.ArtifactSearchDialog" timestamp="1580404981707">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
