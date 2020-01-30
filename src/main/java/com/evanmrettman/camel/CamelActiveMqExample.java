@@ -33,15 +33,13 @@ public class CamelActiveMqExample
             ProducerTemplate template = ctx_camel.createProducerTemplate(); // allows endpoint communication
             ctx_camel.start(); // start running the context
             for(int i = 0; i < 5; i ++)
-            {
                 template.sendBody("activemq:queue:start", "body" + i); // communicate to test bean ctx
-            }
             Thread.sleep(1000); // wait for printed messages
 
         }
         catch (Exception e)
         {
-            System.out.println("error occurred");
+            System.out.println("error occurred: "+e.toString());
         }
         finally
         {
