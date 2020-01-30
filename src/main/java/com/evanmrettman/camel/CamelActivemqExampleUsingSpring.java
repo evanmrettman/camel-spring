@@ -29,6 +29,7 @@ public class CamelActivemqExampleUsingSpring
         finally
         { // cleanup
             ctx_camel.stop();
+            ctx_app.close();
         }
     }
 }
